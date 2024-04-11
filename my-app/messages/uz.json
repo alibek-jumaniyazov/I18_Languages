@@ -1,9 +1,12 @@
 {
     "Index": {
-      "title": "Salom Dunyo!"
+      "title": "Bosh Sahifa ",
+      "description":"Kompaniyaning o'zi juda muvaffaqiyatli kompaniya. Oson moslashuvchanlikni tanbeh qilib, hayotning mashaqqatli parvozi uchun ularga qarzdor ekanligingizni kimdan tushunasiz?"
+    },
+    "Navigations":{
+        "home": "Uy"
     },
     "MetaData" : {
         "title": "Salom Dunyo!"
-
     }    
   }

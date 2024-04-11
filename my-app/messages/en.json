@@ -1,6 +1,10 @@
 {
     "Index": {
-      "title": "Hello world!"
+      "title": "Home Page",
+      "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex qui perspiciatis quas reprehenderit facilis mollitia laboriosam fuga debitis eos vitae?"
+    },
+    "Navigations":{
+        "home": "Home"
     },
     "MetaData" : {
         "title":"Hello world!"

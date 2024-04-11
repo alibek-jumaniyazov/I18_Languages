@@ -7,11 +7,16 @@ import React, { ChangeEvent, useTransition } from "react";
 type Props = {};
 
 export default function ChangesSwitch({}: Props) {
+
     const [isPennding, startTransition] = useTransition();
     const router = useRouter();
     const localeActive = useLocale();
+
+
     function onSelectChange(e: ChangeEvent<HTMLSelectElement>) {
+        
         const nextLocale = e.target.value;
+
         startTransition(() => {
             router.replace(`/${nextLocale}`);
         });
